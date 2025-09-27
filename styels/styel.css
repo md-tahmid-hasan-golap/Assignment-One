@@ -62,3 +62,27 @@ body{
     height: 300px;
     border-radius: 20px;
 }
+
+.secound_section{
+    max-width: 1060px;
+    margin: 0 auto;
+   background-color: rgba(78, 71, 255, 0.3);
+    border-radius: 12px;
+
+}
+
+.main_div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.same_size{
+    color: #4E47FF;
+    font-size: 50px;
+}
+.padding{
+    padding-top: 20px;
+}
+.secound_section{
+    margin-top: 70px;
+}
