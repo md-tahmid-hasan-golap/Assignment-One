@@ -114,3 +114,57 @@ body{
     margin-top: 30px;
     border-radius: 20px;
 }
+.footer_section {
+    max-width: 1060px;
+    margin: 0 auto;       /* left + right দুইদিকেই auto gap */
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+
+.footer_title{
+    color: blue;
+    font-size: 60px;
+    font-weight: bold;
+}
+.footer_parent{
+    display: flex;
+justify-content: center;}
+.nav_link{
+    list-style: none;
+    margin-right: 10px;
+}
+
+
+..contact_section {
+  display: flex;
+  justify-content: space-between;  /* বামে-ডানে ভাগ */
+  align-items: flex-start;         /* উপরের দিক থেকে align */
+  max-width: 1060px;
+  margin: 0 auto;
+  gap: 40px;                       /* বামের-ডানের মাঝে ফাঁকা */
+}
+
+.contact_section{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.rights{
+    display: flex;
+  flex-direction: column; 
+}
+
+.email_fild{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.bold{
+    font-weight: bold;
+}
